@@ -68,11 +68,11 @@ npm start
   - <span style="color:darkgrey">contactAddress</span>: References an Address.
   - <span style="color:darkgrey">office</span>: References an Office.
   - <span style="color:darkgrey">roles</span>: Array referencing Role.
-  - **Address**
-    - **Fields**: <span style="color:darkgrey">streetName, streetNumber, areaCode, city.</span>
-  - **Office**
-    - **Fields**: <span style="color:darkgrey">streetNameAndNumber, areaCode, city.</span>
-    - **Relationships**: Can have multiple employees assigned.
+- **Address**
+  - **Fields**: <span style="color:darkgrey">streetName, streetNumber, areaCode, city.</span>
+- **Office**
+  - **Fields**: <span style="color:darkgrey">streetNameAndNumber, areaCode, city.</span>
+  - **Relationships**: Can have multiple employees assigned.
 - **Role**
 
   - Fields: <span style="color:darkgrey"> name, employees.</span>
