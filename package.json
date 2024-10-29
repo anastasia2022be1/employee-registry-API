@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "employee-registry-api",
+  "version": "1.0.0",
+  "description": "This project is a fully functional API designed for managing employee records in a company, built with Node.js, Express, and MongoDB. The API showcases relational data handling in MongoDB using Mongoose and follows RESTful API design practices. The Employee Registry API manages employee information within a company, including personal data, roles, addresses, and office assignments. By establishing clear relationships between data models, this API provides a solid structure for handling company HR information..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env server.js",
+    "seed": "node --env-file=.env seeder.js"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/anastasia2022be1/employee-registry-API"
+  },
+  "bugs": {
+    "url": "https://github.com/anastasia2022be1/employee-registry-API/issues"
+  },
+  "homepage": "https://github.com/anastasia2022be1/employee-registry-API#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
